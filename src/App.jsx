@@ -4,7 +4,7 @@ import Header from "./component/Header";
 function App() {
   return (
     <>
-      <div className="content-wrapper">
+      <div className="content-wrapper max-w-screen text-base mx-auto px-8  bg-slate-200">
         <Header />
         <main className="main">
           <div className="slider">Slider</div>
