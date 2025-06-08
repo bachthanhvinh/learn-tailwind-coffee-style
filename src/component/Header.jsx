@@ -3,8 +3,8 @@ const Header = () => {
     <>
       <header className="header py-6 mx-10">
         <nav className="flex flex-row items-center justify-between  ">
-          <div className="logo basis-2/6">CoffeeStyle</div>
-          <ul className="flex basis-3/6 gap-8 items-center font-bold text-">
+          <div className="logo basis-2/6 cursor-pointer ">CoffeeStyle</div>
+          <ul className="flex basis-3/6 gap-8 items-center font-bold ">
             <li>
               <a href="">Home</a>
             </li>
