@@ -3,7 +3,9 @@ const Header = () => {
     <>
       <header className="header py-6 mx-10">
         <nav className="flex flex-row items-center justify-between  ">
-          <div className="logo basis-2/6 cursor-pointer ">CoffeeStyle</div>
+          <div className="logo basis-2/6 cursor-pointer font-bold ">
+            CoffeeStyle
+          </div>
           <ul className="flex basis-3/6 gap-8 items-center font-bold ">
             <li>
               <a href="">Home</a>
@@ -32,6 +34,7 @@ const Header = () => {
           <ul>
             <li className="basis-1/6 ">
               <a href="">Cart</a>
+              <div>1</div>
             </li>
           </ul>
         </nav>
