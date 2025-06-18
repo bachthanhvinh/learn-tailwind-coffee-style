@@ -32,9 +32,9 @@ const Header = () => {
             </li>
           </ul>
           <ul>
-            <li className="basis-1/6 ">
+            <li className="basis-1/6  relative">
               <a href="">Cart</a>
-              <div>1</div>
+              <div className="absolute -top-3 -right-3">1</div>
             </li>
           </ul>
         </nav>
